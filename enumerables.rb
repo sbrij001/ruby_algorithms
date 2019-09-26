@@ -39,4 +39,18 @@ class Array
     print arr.rotate
   end
 
+  # practical use for using rotate
+  # ceasars cipher algorithm
+  # in put is a string
+  # return the string where letter is the next letter in the alphabet
+  # ex bacon => cbdpo
+
+  # create a variable that has a range of all of the chars
+  # in the alph
+  # create a variable that you will return
+  # use the rotate method to push the next letter into a new var
+  # return results 
+  def ceasars_ciper(str)
+
+  end
 end
