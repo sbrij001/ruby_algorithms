@@ -49,8 +49,12 @@ class Array
   # in the alph
   # create a variable that you will return
   # use the rotate method to push the next letter into a new var
-  # return results 
-  def ceasars_ciper(str)
+  # return results
 
+  # convert an array to a hash using the to_h method
+  def ceasars_ciper(str)
+    alphabet = Array(a..z)
+    alphabet.zip(alphabet.rotate(1)).to_h
   end
+
 end
